@@ -1,8 +1,27 @@
 
 /* Стиль для Index и Portfolio */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
-    font-family: Roboto, Raleway, sans-serif;
+    font-family: 'Roboto', 'Raleway', sans-serif;
     color: #212121;
+}
+
+:root {
+    --main-text-font: 'Roboto', sans-serif;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
 }
 
 button {
@@ -28,11 +47,11 @@ height: 16px;
 left: 453px;
 top: 32px;
 
-font-family: Roboto;
+font-family: var(--main-text-font);
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.02em;
 
 color: black;
@@ -45,11 +64,11 @@ height: 16px;
 left: 552px;
 top: 32px;
 
-font-family: Roboto;
+font-family: var(--main-text-font);
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.02em;
 
 color: #212121; 
@@ -62,11 +81,11 @@ height: 16px;
 left: 679px;
 top: 32px;
 
-font-family: Roboto;
+font-family: var(--main-text-font);
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.02em;
 
 color: #212121;
@@ -95,11 +114,11 @@ height: 16px;
 left: 1078px;
 top: 32px;
 
-font-family: Roboto;
+font-family: var(--main-text-font);
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.02em;
 
 color: black; 
@@ -112,11 +131,11 @@ height: 16px;
 left: 1263px;
 top: 32px;
 
-font-family: Roboto;
+font-family: var(--main-text-font);
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.02em;
 
 color: #757575;
@@ -131,11 +150,11 @@ height: 120px;
 left: 452px;
 top: 280px;
 
-font-family: Roboto;
+font-family: var(--main-text-font);
 font-style: normal;
 font-weight: 900;
 font-size: 44px;
-line-height: 60px;
+line-height: 1.36;
 /* or 136% */
 
 text-align: center;
@@ -153,11 +172,11 @@ height: 30px;
 left: 732px;
 top: 440px;
 
-font-family: Roboto;
+font-family: var(--main-text-font);
 font-style: normal;
 font-weight: bold;
 font-size: 16px;
-line-height: 30px;
+line-height: 1.875;
 /* identical to box height, or 187% */
 
 display: flex;
@@ -174,11 +193,11 @@ height: 31px;
 left: 215px;
 top: 24px;
 
-font-family: Raleway;
+font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: bold;
 font-size: 26px;
-line-height: 31px;
+line-height: 1.19;
 /* identical to box height */
 
 letter-spacing: 0.03em;
@@ -192,11 +211,11 @@ height: 16px;
 left: 215px;
 top: 774px;
 
-font-family: Roboto;
+font-family: var(--main-text-font);
 font-style: normal;
 font-weight: bold;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 
@@ -209,11 +228,11 @@ height: 75px;
 left: 215px;
 top: 800px;
 
-font-family: Roboto;
+font-family: var(--main-text-font);
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.71;
 /* or 171% */
 
 letter-spacing: 0.03em;
@@ -227,11 +246,11 @@ height: 16px;
 left: 515px;
 top: 774px;
 
-font-family: Roboto;
+font-family: var(--main-text-font);
 font-style: normal;
 font-weight: bold;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 
@@ -244,11 +263,11 @@ height: 75px;
 left: 515px;
 top: 800px;
 
-font-family: Roboto;
+font-family: var(--main-text-font);
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.71;
 /* or 171% */
 
 letter-spacing: 0.03em;
@@ -262,11 +281,11 @@ height: 16px;
 left: 815px;
 top: 774px;
 
-font-family: Roboto;
+font-family: var(--main-text-font);
 font-style: normal;
 font-weight: bold;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 
@@ -279,11 +298,11 @@ height: 75px;
 left: 815px;
 top: 800px;
 
-font-family: Roboto;
+font-family: var(--main-text-font);
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.71;
 /* or 171% */
 
 letter-spacing: 0.03em;
@@ -297,11 +316,11 @@ height: 16px;
 left: 1115px;
 top: 774px;
 
-font-family: Roboto;
+font-family: var(--main-text-font);
 font-style: normal;
 font-weight: bold;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 
@@ -314,7 +333,7 @@ height: 75px;
 left: 1115px;
 top: 800px;
 
-font-family: Roboto;
+font-family: var(--main-text-font);
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
@@ -332,11 +351,11 @@ height: 42px;
 left: 612px;
 top: 969px;
 
-font-family: Roboto;
+font-family: var(--main-text-font);
 font-style: normal;
 font-weight: bold;
 font-size: 36px;
-line-height: 42px;
+line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
 
@@ -348,11 +367,11 @@ height: 42px;
 left: 668px;
 top: 1543px;
 
-font-family: Roboto;
+font-family: var(--main-text-font);
 font-style: normal;
 font-weight: bold;
 font-size: 36px;
-line-height: 42px;
+line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
 
@@ -365,11 +384,11 @@ height: 19px;
 left: 275px;
 top: 1925px;
 
-font-family: Roboto;
+font-family: var(--main-text-font);
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 19px;
+line-height: 1.18;
 /* identical to box height */
 
 text-align: center;
@@ -382,11 +401,11 @@ height: 19px;
 left: 596px;
 top: 1925px;
 
-font-family: Roboto;
+font-family: var(--main-text-font);
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 19px;
+line-height: 1.18;
 /* identical to box height */
 
 text-align: center;
@@ -400,11 +419,11 @@ height: 19px;
 left: 882px;
 top: 1925px;
 
-font-family: Roboto;
+font-family: var(--main-text-font);
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 19px;
+line-height: 1.18;
 /* identical to box height */
 
 text-align: center;
@@ -418,11 +437,11 @@ height: 19px;
 left: 1183px;
 top: 1925px;
 
-font-family: Roboto;
+font-family: var(--main-text-font);
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 19px;
+line-height: 1.18;
 /* identical to box height */
 
 text-align: center;
@@ -436,11 +455,11 @@ height: 19px;
 left: 285px;
 top: 1954px;
 
-font-family: Roboto;
+font-family: var(--main-text-font);
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
-line-height: 19px;
+line-height: 1.18;
 /* identical to box height */
 
 text-align: center;
@@ -454,11 +473,11 @@ height: 19px;
 left: 577px;
 top: 1954px;
 
-font-family: Roboto;
+font-family: var(--main-text-font);
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
-line-height: 19px;
+line-height: 1.18;
 /* identical to box height */
 
 text-align: center;
@@ -471,11 +490,11 @@ height: 19px;
 left: 912px;
 top: 1954px;
 
-font-family: Roboto;
+font-family: var(--main-text-font);
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
-line-height: 19px;
+line-height: 1.18;
 /* identical to box height */
 
 text-align: center;
@@ -488,11 +507,11 @@ height: 19px;
 left: 1207px;
 top: 1954px;
 
-font-family: Roboto;
+font-family: var(--main-text-font);
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
-line-height: 19px;
+line-height: 1.18;
 /* identical to box height */
 
 text-align: center;
@@ -511,11 +530,11 @@ height: 36px;
 left: 239px;
 top: 576px;
 
-font-family: Roboto;
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: bold;
 font-size: 18px;
-line-height: 36px;
+line-height: 2;
 /* identical to box height, or 200% */
 
 letter-spacing: 0.06em;
@@ -528,11 +547,11 @@ height: 30px;
 left: 239px;
 top: 616px;
 
-font-family: Roboto;
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
-line-height: 30px;
+line-height: 1.875;
 /* identical to box height, or 187% */
 
 letter-spacing: 0.03em;
@@ -547,11 +566,11 @@ height: 36px;
 left: 639px;
 top: 576px;
 
-font-family: Roboto;
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: bold;
 font-size: 18px;
-line-height: 36px;
+line-height: 2;
 /* identical to box height, or 200% */
 
 letter-spacing: 0.06em;
@@ -564,11 +583,11 @@ height: 30px;
 left: 639px;
 top: 616px;
 
-font-family: Roboto;
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
-line-height: 30px;
+line-height: 1.875;
 /* identical to box height, or 187% */
 
 letter-spacing: 0.03em;
@@ -583,11 +602,11 @@ height: 36px;
 left: 1039px;
 top: 576px;
 
-font-family: Roboto;
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: bold;
 font-size: 18px;
-line-height: 36px;
+line-height: 2;
 /* identical to box height, or 200% */
 
 letter-spacing: 0.06em;
@@ -600,11 +619,11 @@ height: 30px;
 left: 1039px;
 top: 616px;
 
-font-family: Roboto;
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
-line-height: 30px;
+line-height: 1.875;
 /* identical to box height, or 187% */
 
 letter-spacing: 0.03em;
@@ -619,11 +638,11 @@ height: 36px;
 left: 239px;
 top: 1010px;
 
-font-family: Roboto;
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: bold;
 font-size: 18px;
-line-height: 36px;
+line-height: 2;
 /* identical to box height, or 200% */
 
 letter-spacing: 0.06em;
@@ -637,11 +656,11 @@ height: 30px;
 left: 239px;
 top: 1050px;
 
-font-family: Roboto;
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
-line-height: 30px;
+line-height: 1.875;
 /* identical to box height, or 187% */
 
 letter-spacing: 0.03em;
@@ -656,11 +675,11 @@ height: 36px;
 left: 639px;
 top: 1010px;
 
-font-family: Roboto;
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: bold;
 font-size: 18px;
-line-height: 36px;
+line-height: 2;
 /* identical to box height, or 200% */
 
 letter-spacing: 0.06em;
@@ -674,11 +693,11 @@ height: 30px;
 left: 639px;
 top: 1050px;
 
-font-family: Roboto;
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
-line-height: 30px;
+line-height: 1.875;
 /* identical to box height, or 187% */
 
 letter-spacing: 0.03em;
@@ -693,11 +712,11 @@ height: 36px;
 left: 1039px;
 top: 1010px;
 
-font-family: Roboto;
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: bold;
 font-size: 18px;
-line-height: 36px;
+line-height: 2;
 /* identical to box height, or 200% */
 
 letter-spacing: 0.06em;
@@ -710,11 +729,11 @@ height: 30px;
 left: 1039px;
 top: 1050px;
 
-font-family: Roboto;
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
-line-height: 30px;
+line-height: 1.875;
 /* identical to box height, or 187% */
 
 letter-spacing: 0.03em;
@@ -730,11 +749,11 @@ height: 36px;
 left: 239px;
 top: 1444px;
 
-font-family: Roboto;
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: bold;
 font-size: 18px;
-line-height: 36px;
+line-height: 2;
 /* identical to box height, or 200% */
 
 letter-spacing: 0.06em;
@@ -748,11 +767,11 @@ height: 30px;
 left: 239px;
 top: 1484px;
 
-font-family: Roboto;
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
-line-height: 30px;
+line-height: 1.875;
 /* identical to box height, or 187% */
 
 letter-spacing: 0.03em;
@@ -767,11 +786,11 @@ height: 36px;
 left: 639px;
 top: 1444px;
 
-font-family: Roboto;
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: bold;
 font-size: 18px;
-line-height: 36px;
+line-height: 2;
 /* identical to box height, or 200% */
 
 letter-spacing: 0.06em;
@@ -785,11 +804,11 @@ height: 30px;
 left: 639px;
 top: 1484px;
 
-font-family: Roboto;
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
-line-height: 30px;
+line-height: 1.875;
 /* identical to box height, or 187% */
 
 letter-spacing: 0.03em;
@@ -804,11 +823,11 @@ height: 36px;
 left: 1039px;
 top: 1444px;
 
-font-family: Roboto;
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: bold;
 font-size: 18px;
-line-height: 36px;
+line-height: 2; 
 /* identical to box height, or 200% */
 
 letter-spacing: 0.06em;
@@ -822,11 +841,11 @@ height: 30px;
 left: 1039px;
 top: 1484px;
 
-font-family: Roboto;
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
-line-height: 30px;
+line-height: 1.875;
 /* identical to box height, or 187% */
 
 letter-spacing: 0.03em;
